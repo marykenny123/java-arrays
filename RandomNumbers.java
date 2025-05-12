@@ -3,8 +3,8 @@ import org.w3c.dom.ls.LSOutput;
 public class RandomNumbers {
     public static void main(String[] args) {
         
-        //Escribe un programa que genere un array de 2 dimensiones de 100 filas y 10 columnas  con números aleatorios del
-        // 0 al 99, a través de un bucle anidado (Si no te suenan estos conceptos, ¡búscalos!)
+        //Escribe un programa que genere un array de 2 dimensiones de 100 filas y 10 columnas  con números aleatorios
+        //del 0 al 99, a través de un bucle anidado (Si no te suenan estos conceptos, ¡búscalos!)
 
         print2DArray(100,10);
     }
