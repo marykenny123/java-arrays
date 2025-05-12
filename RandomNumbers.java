@@ -5,8 +5,7 @@ public class RandomNumbers {
         
         //Escribe un programa que genere un array de 2 dimensiones de 100 filas y 10 columnas  con números aleatorios del
         // 0 al 99, a través de un bucle anidado (Si no te suenan estos conceptos, ¡búscalos!)
-        /* test */
-        System.out.println("test");
+
         print2DArray(100,10);
     }
 
