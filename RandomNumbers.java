@@ -1,9 +1,12 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class RandomNumbers {
     public static void main(String[] args) {
         
         //Escribe un programa que genere un array de 2 dimensiones de 100 filas y 10 columnas  con números aleatorios del
         // 0 al 99, a través de un bucle anidado (Si no te suenan estos conceptos, ¡búscalos!)
-
+        /* test */
+        System.out.println("test");
         print2DArray(100,10);
     }
 
@@ -20,7 +23,7 @@ public class RandomNumbers {
         return randomNum;
     }
 
-        /**
+    /**
      * Function name: print2DArray
      * 
      * @param integers (2D array int)
@@ -30,8 +33,6 @@ public class RandomNumbers {
      */
 
     public static int[][] print2DArray(int rows, int columns) {
-        //int rows = 5;
-        //int columns = 2;
         int[][] numArray =  new int[rows][columns];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++ ) {
